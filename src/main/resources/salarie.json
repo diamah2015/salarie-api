@@ -1,0 +1,92 @@
+[
+  {
+    "nom": "Dupont",
+    "prenom": "Jean",
+    "date_naissance": "1985-03-15",
+    "adresse": "12 rue de la Paix, 75002 Paris",
+    "poste": "Développeur",
+    "genre": "Homme",
+    "salaire": 40000
+  },
+  {
+    "nom": "Martin",
+    "prenom": "Sophie",
+    "date_naissance": "1990-07-22",
+    "adresse": "34 avenue des Champs-Élysées, 75008 Paris",
+    "poste": "Chef de projet",
+    "genre": "Femme",
+    "salaire": 55000
+  },
+  {
+    "nom": "Bernard",
+    "prenom": "Luc",
+    "date_naissance": "1978-11-05",
+    "adresse": "56 boulevard Haussmann, 75009 Paris",
+    "poste": "Analyste financier",
+    "genre": "Homme",
+    "salaire": 60000
+  },
+  {
+    "nom": "Dubois",
+    "prenom": "Claire",
+    "date_naissance": "1982-04-17",
+    "adresse": "78 rue Lafayette, 75010 Paris",
+    "poste": "Responsable RH",
+    "genre": "Femme",
+    "salaire": 52000
+  },
+  {
+    "nom": "Thomas",
+    "prenom": "Paul",
+    "date_naissance": "1995-09-30",
+    "adresse": "90 rue de Rivoli, 75001 Paris",
+    "poste": "Assistant marketing",
+    "genre": "Homme",
+    "salaire": 38000
+  },
+  {
+    "nom": "Petit",
+    "prenom": "Julie",
+    "date_naissance": "1987-12-12",
+    "adresse": "23 quai de la Tournelle, 75005 Paris",
+    "poste": "Designer",
+    "genre": "Femme",
+    "salaire": 47000
+  },
+  {
+    "nom": "Robert",
+    "prenom": "Nicolas",
+    "date_naissance": "1980-06-25",
+    "adresse": "45 rue Saint-Honoré, 75001 Paris",
+    "poste": "Consultant Expert",
+    "genre": "Homme",
+    "salaire": 62000
+  },
+  {
+    "nom": "Richard",
+    "prenom": "Emilie",
+    "date_naissance": "1992-08-14",
+    "adresse": "67 avenue Montaigne, 75008 Paris",
+    "poste": "Chargée de communication",
+    "genre": "Femme",
+    "salaire": 43000
+  },
+  {
+    "nom": "Durand",
+    "prenom": "Antoine",
+    "date_naissance": "1983-02-19",
+    "adresse": "89 boulevard Saint-Michel, 75006 Paris",
+    "poste": "Ingénieur système",
+    "genre": "Homme",
+    "salaire": 58000
+  },
+  {
+    "nom": "Lefebvre",
+    "prenom": "Isabelle",
+    "date_naissance": "1975-05-03",
+    "adresse": "101 rue de Rennes, 75006 Paris",
+    "poste": "Directrice commerciale",
+    "genre": "Femme",
+    "salaire": 70000
+  }
+]
