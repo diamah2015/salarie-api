@@ -1,7 +1,8 @@
-package com.craftteam.salarie.config;
+package com.craftteam.employee.config;
 
-import com.craftteam.salarie.model.Salarie;
-import com.craftteam.salarie.service.SalarieService;
+
+import com.craftteam.employee.model.Employee;
+import com.craftteam.employee.service.EmployeeService;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
@@ -15,10 +16,10 @@ import java.util.List;
 @Component
 public class DataLoader {
 
-    private final SalarieService salarieService;
+    private final EmployeeService employeeService;
 
-    public DataLoader(SalarieService salarieService) {
-        this.salarieService = salarieService;
+    public DataLoader(EmployeeService employeeService) {
+        this.employeeService = employeeService;
     }
 
     @EventListener(ApplicationReadyEvent.class)
@@ -27,7 +28,7 @@ public class DataLoader {
         mapper.registerModule(new JavaTimeModule()); // <<<<<< IMPORTANT
         
         InputStream inputStream = getClass().getResourceAsStream("/salarie.json");
-        List<Salarie> salaries = mapper.readValue(inputStream, new TypeReference<List<Salarie>>() {});
-        salarieService.setSalaries(salaries);
+        List<Employee> salaries = mapper.readValue(inputStream, new TypeReference<List<Employee>>() {});
+        employeeService.setSalaries(salaries);
     }
 }

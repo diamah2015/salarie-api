@@ -1,4 +1,4 @@
-package com.craftteam.salarie.config;
+package com.craftteam.employee.config;
 
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer;

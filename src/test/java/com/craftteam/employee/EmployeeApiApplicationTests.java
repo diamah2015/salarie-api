@@ -1,10 +1,10 @@
-package com.craftteam.salarie;
+package com.craftteam.employee;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SalarieApiApplicationTests {
+class EmployeeApiApplicationTests {
 
 	@Test
 	void contextLoads() {
