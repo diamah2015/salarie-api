@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.craftteam.salarie</groupId>
-	<artifactId>salarie-api</artifactId>
+	<artifactId>employee-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>salarie-api</name>
 	<description>L&apos;API salarie-api est une application Spring Boot REST qui permet de gérer des salariés à partir d&apos;un fichier salarie.json.</description>
